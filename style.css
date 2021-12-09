@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    direction: rtl;
+}
+header{
+    position: fixed;
+     top: 0;
+     right: 0;
+     width: 100%;
+     height: 100%;
+}
+header h2{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 30px 60px;
+}
+header .progress{
+  
+    width:100%;
+    height: 10px;
+    background-color: grey;
+}
+header .progress .progress-bar{
+    
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(184,2,216), rgb(255,0,43));
+}
+section{
+    margin-top: 10%;
+}
+section h2{
+    font-size: xx-large;
+}
+section p{
+    font-size: x-large;
+    margin: 40px;
+}
